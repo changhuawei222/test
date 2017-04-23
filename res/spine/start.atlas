@@ -1,0 +1,68 @@
+
+start.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/background
+  rotate: false
+  xy: 2, 1274
+  size: 1136, 768
+  orig: 1136, 768
+  offset: 0, 0
+  index: -1
+images/background_up
+  rotate: false
+  xy: 2, 2
+  size: 1136, 240
+  orig: 1136, 240
+  offset: 0, 0
+  index: -1
+images/button_start
+  rotate: true
+  xy: 1022, 724
+  size: 548, 114
+  orig: 626, 114
+  offset: 39, 0
+  index: -1
+images/button_start_word
+  rotate: true
+  xy: 1612, 1822
+  size: 135, 55
+  orig: 626, 114
+  offset: 246, 19
+  index: -1
+images/level_01
+  rotate: false
+  xy: 1140, 1386
+  size: 470, 656
+  orig: 512, 691
+  offset: 18, 21
+  index: -1
+images/level_02
+  rotate: false
+  xy: 1140, 728
+  size: 470, 656
+  orig: 512, 691
+  offset: 18, 21
+  index: -1
+images/name
+  rotate: false
+  xy: 2, 244
+  size: 1049, 461
+  orig: 1049, 512
+  offset: 0, 25
+  index: -1
+images/share
+  rotate: false
+  xy: 1612, 1959
+  size: 129, 83
+  orig: 147, 100
+  offset: 8, 9
+  index: -1
+images/subtitles
+  rotate: false
+  xy: 2, 707
+  size: 1018, 565
+  orig: 1136, 768
+  offset: 72, 122
+  index: -1

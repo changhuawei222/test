@@ -1,0 +1,68 @@
+
+question2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/question/back
+  rotate: false
+  xy: 1525, 138
+  size: 240, 111
+  orig: 267, 135
+  offset: 11, 11
+  index: -1
+images/question/enter
+  rotate: false
+  xy: 1767, 138
+  size: 240, 111
+  orig: 267, 135
+  offset: 11, 11
+  index: -1
+images/question/last
+  rotate: false
+  xy: 1164, 66
+  size: 240, 111
+  orig: 267, 135
+  offset: 11, 11
+  index: -1
+images/question/quit
+  rotate: false
+  xy: 1491, 25
+  size: 240, 111
+  orig: 267, 135
+  offset: 11, 11
+  index: -1
+images/question/result/failure
+  rotate: false
+  xy: 1164, 179
+  size: 359, 70
+  orig: 968, 359
+  offset: 318, 141
+  index: -1
+images/question/result/failure_back
+  rotate: false
+  xy: 613, 142
+  size: 549, 107
+  orig: 968, 359
+  offset: 243, 123
+  index: -1
+images/question/result/result_frame
+  rotate: false
+  xy: 2, 2
+  size: 609, 247
+  orig: 968, 359
+  offset: 209, 67
+  index: -1
+images/question/result/successful
+  rotate: false
+  xy: 613, 70
+  size: 453, 70
+  orig: 968, 359
+  offset: 283, 141
+  index: -1
+images/share
+  rotate: true
+  xy: 1406, 48
+  size: 129, 83
+  orig: 147, 100
+  offset: 8, 9
+  index: -1

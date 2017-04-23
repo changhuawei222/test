@@ -1,0 +1,821 @@
+{
+"bones": [
+	{ "name": "root", "x": 138, "y": 68.56 },
+	{ "name": "Dor_lv01_talk_01", "parent": "root", "x": -92.42, "y": 20.28 },
+	{ "name": "Dor_lv01_talk_02", "parent": "root", "x": -42.87, "y": 12.48 },
+	{ "name": "Dor_lv02_talk_01", "parent": "root", "x": -26.83, "y": 49.51 },
+	{ "name": "Dor_lv02_talk_02", "parent": "root", "x": -23.82, "y": 34.29 },
+	{ "name": "Xq_lv01_talk_01", "parent": "root", "x": -198.59, "y": -31.6 },
+	{ "name": "Xq_lv01_talk_02", "parent": "root", "x": -151.3, "y": 24.55 },
+	{ "name": "Xq_lv02_talk_01", "parent": "root", "x": -210.49, "y": 5.54 },
+	{ "name": "Xq_lv02_talk_02", "parent": "root", "x": -226.5, "y": 2.77 },
+	{ "name": "aside", "parent": "root", "x": -132.98, "y": 120.54 },
+	{ "name": "doctorX", "parent": "root", "x": -529.62, "y": -231.38 },
+	{ "name": "xiaoqiang", "parent": "root", "x": 255.41, "y": -234.39 }
+],
+"slots": [
+	{ "name": "doctorX", "bone": "doctorX" },
+	{ "name": "xiaoqiang", "bone": "xiaoqiang" },
+	{ "name": "scene_01_aside", "bone": "aside" },
+	{ "name": "v1kuang", "bone": "Dor_lv01_talk_01" },
+	{ "name": "V1", "bone": "Dor_lv01_talk_01" },
+	{ "name": "V2kuang", "bone": "Dor_lv01_talk_02" },
+	{ "name": "V2", "bone": "Dor_lv01_talk_02" },
+	{ "name": "v1kuang2", "bone": "Dor_lv02_talk_01" },
+	{ "name": "v1", "bone": "Dor_lv02_talk_01" },
+	{ "name": "v2kuang", "bone": "Dor_lv02_talk_02" },
+	{ "name": "v2", "bone": "Dor_lv02_talk_02" },
+	{ "name": "xiaoqiang1kuang", "bone": "Xq_lv01_talk_01" },
+	{ "name": "xiaoqiang1", "bone": "Xq_lv01_talk_01" },
+	{ "name": "xiaoqiang2kuang", "bone": "Xq_lv01_talk_02" },
+	{ "name": "xiaoqiang2", "bone": "Xq_lv01_talk_02" },
+	{ "name": "xiaoqiang1kuang2", "bone": "Xq_lv02_talk_01" },
+	{ "name": "xiaoqiang12", "bone": "Xq_lv02_talk_01" },
+	{ "name": "xiaoqiang1kuang3", "bone": "Xq_lv02_talk_02" },
+	{ "name": "xiaoqiang22", "bone": "Xq_lv02_talk_02" }
+],
+"skins": {
+	"default": {
+		"V1": {
+			"doctorX/level01/word01/V1": { "x": 15.67, "y": -9.58, "width": 968, "height": 359 }
+		},
+		"V2": {
+			"doctorX/level01/word02/V2": { "width": 968, "height": 359 }
+		},
+		"V2kuang": {
+			"doctorX/level01/word02/V2kuang": { "width": 968, "height": 359 }
+		},
+		"doctorX": {
+			"doctorX/doctorX": { "width": 343, "height": 443 }
+		},
+		"scene_01_aside": {
+			"scene_01_aside": { "width": 968, "height": 359 }
+		},
+		"v1": {
+			"doctorX/level02/word01/v1": { "width": 968, "height": 359 }
+		},
+		"v1kuang": {
+			"doctorX/level01/word01/v1kuang": { "x": 15.67, "y": -9.58, "width": 968, "height": 359 }
+		},
+		"v1kuang2": {
+			"doctorX/level02/word01/v1kuang": { "width": 968, "height": 359 }
+		},
+		"v2": {
+			"doctorX/level02/word02/v2": { "width": 968, "height": 359 }
+		},
+		"v2kuang": {
+			"doctorX/level02/word02/v2kuang": { "width": 968, "height": 359 }
+		},
+		"xiaoqiang": {
+			"xiaoqiang/xiaoqiang": { "width": 278, "height": 433 }
+		},
+		"xiaoqiang1": {
+			"xiaoqiang/level01/word01/xiaoqiang1": { "width": 968, "height": 359 }
+		},
+		"xiaoqiang12": {
+			"xiaoqiang/level02/word01/xiaoqiang1": { "width": 968, "height": 359 }
+		},
+		"xiaoqiang1kuang": {
+			"xiaoqiang/level01/word01/xiaoqiang1kuang": { "width": 968, "height": 359 }
+		},
+		"xiaoqiang1kuang2": {
+			"xiaoqiang/level02/word01/xiaoqiang1kuang": { "width": 968, "height": 359 }
+		},
+		"xiaoqiang1kuang3": {
+			"xiaoqiang/level02/word01/xiaoqiang1kuang": { "width": 968, "height": 359 }
+		},
+		"xiaoqiang2": {
+			"xiaoqiang/level01/word02/xiaoqiang2": { "width": 968, "height": 359 }
+		},
+		"xiaoqiang22": {
+			"xiaoqiang/level02/word02/xiaoqiang2": { "x": 25.97, "y": 18.21, "width": 955, "height": 321 }
+		},
+		"xiaoqiang2kuang": {
+			"xiaoqiang/level01/word02/xiaoqiang2kuang": { "width": 968, "height": 359 }
+		}
+	}
+},
+"events": {
+	"dor_frame_in": {},
+	"dor_out": {},
+	"xiaoqiang_frame_in": {},
+	"xiaoqiang_out": {}
+},
+"animations": {
+	"aside_in": {
+		"bones": {
+			"aside": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.0333,
+						"x": 0.009,
+						"y": 0.1,
+						"curve": [ 0.284, 0.48, 0.75, 1 ]
+					},
+					{
+						"time": 0.1666,
+						"x": 0.009,
+						"y": 1,
+						"curve": [ 0.224, 0.73, 0.75, 1 ]
+					},
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"xiaoqiang": {
+				"translate": [
+					{ "time": 0, "x": 316.17, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.2666,
+						"x": 316.17,
+						"y": 0,
+						"curve": [ 0.267, 0.86, 0.75, 1 ]
+					},
+					{ "time": 0.7666, "x": 0, "y": 0 }
+				]
+			},
+			"doctorX": {
+				"translate": [
+					{ "time": 0, "x": -357.62, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.2666,
+						"x": -357.62,
+						"y": 0,
+						"curve": [ 0.407, 1.03, 0.75, 1 ]
+					},
+					{ "time": 0.7666, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"doctorX": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/doctorX" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"scene_01_aside": {
+				"attachment": [
+					{ "time": 0, "name": "scene_01_aside" }
+				]
+			},
+			"xiaoqiang": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/xiaoqiang" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"aside_out": {
+		"bones": {
+			"aside": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.184, 0.68, 0.75, 1 ]
+					},
+					{ "time": 0.2333, "x": 1, "y": 0 }
+				]
+			},
+			"doctorX": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"xiaoqiang": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"doctorX": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/doctorX" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.1666,
+						"color": "ffffffff",
+						"curve": [ 0.296, 0.4, 0.646, 0.73 ]
+					},
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"scene_01_aside": {
+				"attachment": [
+					{ "time": 0, "name": "scene_01_aside" }
+				]
+			},
+			"xiaoqiang": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/xiaoqiang" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.1666,
+						"color": "ffffffff",
+						"curve": [ 0.184, 0.33, 0.738, 0.91 ]
+					},
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"doctor_in": {
+		"bones": {
+			"doctorX": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -357.62,
+						"y": 0,
+						"curve": [ 0.407, 1.03, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"doctorX": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/doctorX" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3666, "name": "dor_frame_in" }
+		]
+	},
+	"doctor_lv01_t01_in": {
+		"bones": {
+			"Dor_lv01_talk_01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 1,
+						"curve": [ 0.198, 0.59, 0.75, 1 ]
+					},
+					{ "time": 0.2666, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"slots": {
+			"v1kuang": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level01/word01/v1kuang" }
+				]
+			},
+			"V1": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level01/word01/V1" }
+				]
+			}
+		}
+	},
+	"doctor_lv01_t01_out": {
+		"bones": {
+			"Dor_lv01_talk_01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.161, 0.65, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"v1kuang": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level01/word01/v1kuang" }
+				]
+			},
+			"V1": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level01/word01/V1" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2666, "name": "dor_out" }
+		]
+	},
+	"doctor_lv01_t02_in": {
+		"bones": {
+			"Dor_lv01_talk_02": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 1,
+						"curve": [ 0.198, 0.59, 0.75, 1 ]
+					},
+					{ "time": 0.2666, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"slots": {
+			"V2kuang": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level01/word02/V2kuang" },
+					{ "time": 0.6666, "name": "doctorX/level01/word02/V2kuang" }
+				]
+			},
+			"V2": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level01/word02/V2" },
+					{ "time": 0.6666, "name": "doctorX/level01/word02/V2" }
+				]
+			}
+		}
+	},
+	"doctor_lv01_t02_out": {
+		"bones": {
+			"Dor_lv01_talk_02": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.161, 0.65, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"V2kuang": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level01/word02/V2kuang" }
+				]
+			},
+			"V2": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level01/word02/V2" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2666, "name": "dor_out" }
+		]
+	},
+	"doctor_lv02_t01_in": {
+		"bones": {
+			"Dor_lv02_talk_01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 1,
+						"curve": [ 0.198, 0.59, 0.75, 1 ]
+					},
+					{ "time": 0.2666, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"slots": {
+			"v1": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level02/word01/v1" }
+				]
+			},
+			"v1kuang2": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level02/word01/v1kuang" }
+				]
+			}
+		}
+	},
+	"doctor_lv02_t01_out": {
+		"bones": {
+			"Dor_lv02_talk_01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.161, 0.65, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"v1": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level02/word01/v1" }
+				]
+			},
+			"v1kuang2": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level02/word01/v1kuang" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2666, "name": "dor_out" }
+		]
+	},
+	"doctor_lv02_t02_in": {
+		"bones": {
+			"Dor_lv02_talk_02": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 1,
+						"curve": [ 0.198, 0.59, 0.75, 1 ]
+					},
+					{ "time": 0.2666, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"slots": {
+			"v2kuang": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level02/word02/v2kuang" }
+				]
+			},
+			"v2": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level02/word02/v2" }
+				]
+			}
+		}
+	},
+	"doctor_lv02_t02_out": {
+		"bones": {
+			"Dor_lv02_talk_02": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.161, 0.65, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"v2kuang": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level02/word02/v2kuang" }
+				]
+			},
+			"v2": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/level02/word02/v2" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2666, "name": "dor_out" }
+		]
+	},
+	"doctor_out": {
+		"bones": {
+			"doctorX": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"doctorX": {
+				"attachment": [
+					{ "time": 0, "name": "doctorX/doctorX" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0.296, 0.4, 0.646, 0.73 ]
+					},
+					{ "time": 0.3666, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"xiaoqiang_in": {
+		"bones": {
+			"xiaoqiang": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 316.17,
+						"y": 0,
+						"curve": [ 0.267, 0.86, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"xiaoqiang": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/xiaoqiang" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.4, "name": "xiaoqiang_frame_in" }
+		]
+	},
+	"xiaoqiang_lv01_t01_in": {
+		"bones": {
+			"Xq_lv01_talk_01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.009,
+						"y": 0.029,
+						"curve": [ 0.218, 0.42, 0.635, 0.93 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 0.009,
+						"y": 1,
+						"curve": [ 0.152, 0.68, 0.75, 1 ]
+					},
+					{ "time": 0.4333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"slots": {
+			"xiaoqiang1kuang": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level01/word01/xiaoqiang1kuang" }
+				]
+			},
+			"xiaoqiang1": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level01/word01/xiaoqiang1" }
+				]
+			}
+		}
+	},
+	"xiaoqiang_lv01_t01_out": {
+		"bones": {
+			"Xq_lv01_talk_01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.135, 0.69, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"xiaoqiang1kuang": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level01/word01/xiaoqiang1kuang" }
+				]
+			},
+			"xiaoqiang1": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level01/word01/xiaoqiang1" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2666, "name": "xiaoqiang_out" }
+		]
+	},
+	"xiaoqiang_lv01_t02_in": {
+		"bones": {
+			"Xq_lv01_talk_02": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.009,
+						"y": 0.029,
+						"curve": [ 0.218, 0.42, 0.635, 0.93 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 0.009,
+						"y": 1,
+						"curve": [ 0.152, 0.68, 0.75, 1 ]
+					},
+					{ "time": 0.4333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"slots": {
+			"xiaoqiang2kuang": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level01/word02/xiaoqiang2kuang" }
+				]
+			},
+			"xiaoqiang2": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level01/word02/xiaoqiang2" }
+				]
+			}
+		}
+	},
+	"xiaoqiang_lv01_t02_out": {
+		"bones": {
+			"Xq_lv01_talk_02": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.135, 0.69, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"xiaoqiang2kuang": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level01/word02/xiaoqiang2kuang" }
+				]
+			},
+			"xiaoqiang2": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level01/word02/xiaoqiang2" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2666, "name": "xiaoqiang_out" }
+		]
+	},
+	"xiaoqiang_lv02_t01_in": {
+		"bones": {
+			"Xq_lv02_talk_01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.009,
+						"y": 0.029,
+						"curve": [ 0.218, 0.42, 0.635, 0.93 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 0.009,
+						"y": 1,
+						"curve": [ 0.152, 0.68, 0.75, 1 ]
+					},
+					{ "time": 0.4333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"slots": {
+			"xiaoqiang1kuang2": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level02/word01/xiaoqiang1kuang" }
+				]
+			},
+			"xiaoqiang12": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level02/word01/xiaoqiang1" }
+				]
+			}
+		}
+	},
+	"xiaoqiang_lv02_t01_out": {
+		"bones": {
+			"Xq_lv02_talk_01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.135, 0.69, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"xiaoqiang1kuang2": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level02/word01/xiaoqiang1kuang" }
+				]
+			},
+			"xiaoqiang12": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level02/word01/xiaoqiang1" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2666, "name": "xiaoqiang_out" }
+		]
+	},
+	"xiaoqiang_lv02_t02_in": {
+		"bones": {
+			"Xq_lv02_talk_02": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.009,
+						"y": 0.029,
+						"curve": [ 0.218, 0.42, 0.635, 0.93 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 0.009,
+						"y": 1,
+						"curve": [ 0.152, 0.68, 0.75, 1 ]
+					},
+					{ "time": 0.4333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"slots": {
+			"xiaoqiang1kuang3": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level02/word01/xiaoqiang1kuang" }
+				]
+			},
+			"xiaoqiang22": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level02/word02/xiaoqiang2" }
+				]
+			}
+		}
+	},
+	"xiaoqiang_lv02_t02_out": {
+		"bones": {
+			"Xq_lv02_talk_02": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.135, 0.69, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": 1, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"xiaoqiang1kuang3": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level02/word01/xiaoqiang1kuang" }
+				]
+			},
+			"xiaoqiang22": {
+				"attachment": [
+					{ "time": 0, "name": "xiaoqiang/level02/word02/xiaoqiang2" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2666, "name": "xiaoqiang_out" }
+		]
+	},
+	"xiaoqiang_out": {
+		"bones": {
+			"xiaoqiang": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"slots": {
+			"xiaoqiang": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff7f" },
+					{ "time": 0.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3666, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff7f" }
+				]
+			}
+		}
+	}
+}
+}

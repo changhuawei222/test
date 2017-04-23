@@ -1,0 +1,97 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "scene", "parent": "root" }
+],
+"slots": [
+	{ "name": "scene", "bone": "scene", "attachment": "images/scene_01" }
+],
+"skins": {
+	"default": {
+		"scene": {
+			"images/scene_01_green": { "width": 1136, "height": 768 },
+			"images/scene_01_purple": { "width": 1136, "height": 768 },
+			"images/scene_01_yellow": { "width": 1136, "height": 768 },
+			"images/scene_02_green": { "width": 1136, "height": 768 },
+			"images/scene_02_purple": { "width": 1136, "height": 768 },
+			"images/scene_02_yellow": { "width": 1136, "height": 768 },
+			"images/scene_01": { "width": 1136, "height": 768 },
+			"images/scene_02": { "width": 1136, "height": 768 }
+		}
+	}
+},
+"animations": {
+	"level01_01": {
+		"slots": {
+			"scene": {
+				"attachment": [
+					{ "time": 0, "name": "images/scene_01" }
+				]
+			}
+		}
+	},
+	"level02_01": {
+		"slots": {
+			"scene": {
+				"attachment": [
+					{ "time": 0, "name": "images/scene_02" }
+				]
+			}
+		}
+	},
+	"level01_02": {
+		"slots": {
+			"scene": {
+				"attachment": [
+					{ "time": 0, "name": "images/scene_01_green" }
+				]
+			}
+		}
+	},
+	"level02_02": {
+		"slots": {
+			"scene": {
+				"attachment": [
+					{ "time": 0, "name": "images/scene_02_green" }
+				]
+			}
+		}
+	},
+	"level01_03": {
+		"slots": {
+			"scene": {
+				"attachment": [
+					{ "time": 0, "name": "images/scene_01_purple" }
+				]
+			}
+		}
+	},
+	"level02_03": {
+		"slots": {
+			"scene": {
+				"attachment": [
+					{ "time": 0, "name": "images/scene_02_purple" }
+				]
+			}
+		}
+	},
+	"level01_04": {
+		"slots": {
+			"scene": {
+				"attachment": [
+					{ "time": 0, "name": "images/scene_01_yellow" }
+				]
+			}
+		}
+	},
+	"level02_04": {
+		"slots": {
+			"scene": {
+				"attachment": [
+					{ "time": 0, "name": "images/scene_02_yellow" }
+				]
+			}
+		}
+	}
+}
+}

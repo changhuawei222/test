@@ -1,0 +1,145 @@
+
+result.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/failure/failure_01
+  rotate: false
+  xy: 1140, 1415
+  size: 606, 613
+  orig: 624, 725
+  offset: 18, 45
+  index: -1
+images/failure/failure_02
+  rotate: false
+  xy: 2, 405
+  size: 786, 339
+  orig: 815, 396
+  offset: 29, 38
+  index: -1
+images/failure/failure_02_light
+  rotate: false
+  xy: 790, 416
+  size: 200, 99
+  orig: 815, 396
+  offset: 251, 76
+  index: -1
+images/failure/gantanhao
+  rotate: true
+  xy: 2, 2
+  size: 49, 180
+  orig: 89, 213
+  offset: 22, 16
+  index: -1
+images/question/xiaoqiang_Successful
+  rotate: true
+  xy: 350, 150
+  size: 253, 371
+  orig: 306, 419
+  offset: 5, 9
+  index: -1
+images/question/xiaoqiang_failure
+  rotate: false
+  xy: 1748, 1669
+  size: 266, 359
+  orig: 306, 419
+  offset: 15, 40
+  index: -1
+images/scene_03
+  rotate: false
+  xy: 2, 1260
+  size: 1136, 768
+  orig: 1136, 768
+  offset: 0, 0
+  index: -1
+images/successful/diqiu
+  rotate: false
+  xy: 2, 53
+  size: 346, 350
+  orig: 376, 384
+  offset: 17, 16
+  index: -1
+images/successful/huojian
+  rotate: true
+  xy: 350, 70
+  size: 78, 317
+  orig: 134, 384
+  offset: 28, 33
+  index: -1
+images/successful/huoxing
+  rotate: false
+  xy: 1748, 1411
+  size: 256, 256
+  orig: 376, 384
+  offset: 62, 63
+  index: -1
+images/successful/piaodai00
+  rotate: true
+  xy: 992, 462
+  size: 53, 20
+  orig: 100, 100
+  offset: 24, 39
+  index: -1
+images/successful/piaodai01
+  rotate: false
+  xy: 987, 1226
+  size: 46, 32
+  orig: 100, 100
+  offset: 28, 33
+  index: -1
+images/successful/piaodai02
+  rotate: false
+  xy: 2016, 1994
+  size: 30, 34
+  orig: 100, 100
+  offset: 36, 32
+  index: -1
+images/successful/piaodai03
+  rotate: false
+  xy: 2006, 1631
+  size: 40, 36
+  orig: 100, 100
+  offset: 31, 31
+  index: -1
+images/successful/piaodai04
+  rotate: false
+  xy: 669, 116
+  size: 51, 32
+  orig: 100, 100
+  offset: 25, 33
+  index: -1
+images/successful/piaodai05
+  rotate: false
+  xy: 723, 367
+  size: 49, 36
+  orig: 100, 100
+  offset: 26, 31
+  index: -1
+images/successful/successful_02
+  rotate: false
+  xy: 2, 746
+  size: 983, 512
+  orig: 1024, 543
+  offset: 21, 22
+  index: -1
+images/successful/successful_02_r01
+  rotate: true
+  xy: 790, 517
+  size: 227, 226
+  orig: 274, 273
+  offset: 17, 17
+  index: -1
+images/successful/successful_02_r02
+  rotate: true
+  xy: 1140, 1195
+  size: 218, 226
+  orig: 274, 273
+  offset: 26, 17
+  index: -1
+images/zhedang
+  rotate: false
+  xy: 1368, 1313
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

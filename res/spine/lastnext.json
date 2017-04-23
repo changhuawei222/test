@@ -1,0 +1,143 @@
+{
+"bones": [
+	{ "name": "root", "y": 102 },
+	{ "name": "enter_back2", "parent": "root", "x": 704.58, "y": -414.82, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "quit_cancel2", "parent": "root", "x": -704.57, "y": -414.81, "scaleX": 0.8, "scaleY": 0.8 }
+],
+"slots": [
+	{ "name": "enter_back2", "bone": "enter_back2", "attachment": "images/question/next" },
+	{ "name": "quit_cancel2", "bone": "quit_cancel2", "attachment": "images/question/last" }
+],
+"skins": {
+	"default": {
+		"enter_back2": {
+			"images/question/next": { "width": 267, "height": 135 },
+			"images/question/submit": { "width": 267, "height": 135 }
+		},
+		"quit_cancel2": {
+			"images/question/last": { "width": 267, "height": 135 }
+		}
+	}
+},
+"animations": {
+	"choice_in": {
+		"bones": {
+			"quit_cancel2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.224, 0.41, 0.518, 0.99 ]
+					},
+					{ "time": 0.5, "x": 303.92, "y": 0 }
+				]
+			},
+			"enter_back2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.224, 0.41, 0.518, 0.99 ]
+					},
+					{ "time": 0.5, "x": -303.93, "y": 0 }
+				]
+			}
+		}
+	},
+	"choice_out": {
+		"bones": {
+			"quit_cancel2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 303.92,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.881, 0.7 ]
+					},
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			},
+			"enter_back2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -303.93,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.881, 0.7 ]
+					},
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"last_choice": {
+		"slots": {
+			"quit_cancel2": {
+				"attachment": [
+					{ "time": 0, "name": "images/question/last" }
+				]
+			}
+		}
+	},
+	"last_unchoice": {
+		"slots": {
+			"quit_cancel2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"next_choice": {
+		"slots": {
+			"enter_back2": {
+				"attachment": [
+					{ "time": 0, "name": "images/question/next" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"next_unchoice": {
+		"slots": {
+			"enter_back2": {
+				"attachment": [
+					{ "time": 0, "name": "images/question/next" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"submit_choice": {
+		"slots": {
+			"enter_back2": {
+				"attachment": [
+					{ "time": 0, "name": "images/question/submit" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"submit_unchoice": {
+		"slots": {
+			"enter_back2": {
+				"attachment": [
+					{ "time": 0, "name": "images/question/submit" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff71" }
+				]
+			}
+		}
+	}
+}
+}

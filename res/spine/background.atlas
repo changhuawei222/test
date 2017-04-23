@@ -1,0 +1,66 @@
+
+background.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/scene_01_green
+  rotate: false
+  xy: 2, 1140
+  size: 1136, 768
+  orig: 1136, 768
+  offset: 0, 0
+  index: -1
+images/scene_01_purple
+  rotate: true
+  xy: 1140, 772
+  size: 1136, 768
+  orig: 1136, 768
+  offset: 0, 0
+  index: -1
+images/scene_01_yellow
+  rotate: true
+  xy: 2, 2
+  size: 1136, 768
+  orig: 1136, 768
+  offset: 0, 0
+  index: -1
+images/scene_02_green
+  rotate: false
+  xy: 772, 2
+  size: 1136, 768
+  orig: 1136, 768
+  offset: 0, 0
+  index: -1
+
+background2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/scene_01
+  rotate: true
+  xy: 2, 2
+  size: 1136, 768
+  orig: 1136, 768
+  offset: 0, 0
+  index: -1
+images/scene_02
+  rotate: false
+  xy: 772, 2
+  size: 1136, 768
+  orig: 1136, 768
+  offset: 0, 0
+  index: -1
+images/scene_02_purple
+  rotate: false
+  xy: 2, 1140
+  size: 1136, 768
+  orig: 1136, 768
+  offset: 0, 0
+  index: -1
+images/scene_02_yellow
+  rotate: true
+  xy: 1140, 772
+  size: 1136, 768
+  orig: 1136, 768
+  offset: 0, 0
+  index: -1

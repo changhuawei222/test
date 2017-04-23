@@ -1,0 +1,416 @@
+
+question1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+question/answer/Q1/help/01/1-1
+  rotate: true
+  xy: 115, 254
+  size: 546, 98
+  orig: 955, 321
+  offset: 212, 122
+  index: -1
+question/answer/Q1/help/01/2-1-1
+  rotate: false
+  xy: 1240, 760
+  size: 410, 70
+  orig: 955, 321
+  offset: 272, 125
+  index: -1
+question/answer/Q1/help/02/1-1-2
+  rotate: true
+  xy: 1238, 296
+  size: 229, 67
+  orig: 955, 321
+  offset: 333, 169
+  index: -1
+question/answer/Q1/help/02/1-2
+  rotate: true
+  xy: 535, 290
+  size: 510, 193
+  orig: 955, 321
+  offset: 178, 59
+  index: -1
+question/answer/Q1/help/02/2-1-2
+  rotate: false
+  xy: 1635, 455
+  size: 378, 70
+  orig: 955, 321
+  offset: 259, 168
+  index: -1
+question/answer/Q1/help/03/1-1-3
+  rotate: true
+  xy: 1240, 41
+  size: 227, 70
+  orig: 955, 321
+  offset: 376, 143
+  index: -1
+question/answer/Q1/help/03/1-3
+  rotate: false
+  xy: 1178, 832
+  size: 489, 141
+  orig: 955, 321
+  offset: 240, 73
+  index: -1
+question/answer/Q1/help/03/2-1-3
+  rotate: false
+  xy: 1240, 616
+  size: 409, 70
+  orig: 955, 321
+  offset: 268, 144
+  index: -1
+question/answer/Q1/help/04/1-1-4
+  rotate: true
+  xy: 765, 10
+  size: 278, 69
+  orig: 955, 321
+  offset: 325, 148
+  index: -1
+question/answer/Q1/help/04/1-4
+  rotate: true
+  xy: 215, 260
+  size: 540, 98
+  orig: 955, 321
+  offset: 223, 119
+  index: -1
+question/answer/Q1/help/04/2-1-4
+  rotate: false
+  xy: 1635, 383
+  size: 378, 70
+  orig: 955, 321
+  offset: 266, 148
+  index: -1
+question/answer/Q1/tubiao/01/Atubiao
+  rotate: false
+  xy: 2, 1115
+  size: 599, 198
+  orig: 689, 360
+  offset: 52, 52
+  index: -1
+question/answer/Q1/tubiao/01/Btubiao
+  rotate: true
+  xy: 619, 874
+  size: 502, 166
+  orig: 689, 360
+  offset: 98, 82
+  index: -1
+question/answer/Q1/tubiao/01/Ctubiao
+  rotate: true
+  xy: 998, 298
+  size: 502, 166
+  orig: 689, 360
+  offset: 99, 74
+  index: -1
+question/answer/Q1/tubiao/01/Dtubiao
+  rotate: true
+  xy: 1010, 844
+  size: 502, 166
+  orig: 689, 360
+  offset: 92, 84
+  index: -1
+question/answer/Q1/tubiao/02/Atubiao
+  rotate: false
+  xy: 2, 915
+  size: 599, 198
+  orig: 689, 360
+  offset: 54, 51
+  index: -1
+question/answer/Q1/tubiao/02/Btubiao
+  rotate: false
+  xy: 1178, 1311
+  size: 502, 166
+  orig: 689, 360
+  offset: 100, 67
+  index: -1
+question/answer/Q1/tubiao/02/Ctubiao
+  rotate: false
+  xy: 1178, 1143
+  size: 502, 166
+  orig: 689, 360
+  offset: 90, 72
+  index: -1
+question/answer/Q1/tubiao/02/Dtubiao
+  rotate: false
+  xy: 1178, 975
+  size: 502, 166
+  orig: 689, 360
+  offset: 98, 60
+  index: -1
+question/answer/Q2/help/01/1-2-1
+  rotate: true
+  xy: 1166, 421
+  size: 409, 70
+  orig: 955, 321
+  offset: 296, 130
+  index: -1
+question/answer/Q2/help/01/2-1
+  rotate: false
+  xy: 2, 802
+  size: 581, 111
+  orig: 955, 321
+  offset: 156, 111
+  index: -1
+question/answer/Q2/help/01/2-2-1
+  rotate: true
+  xy: 1962, 16
+  size: 365, 70
+  orig: 955, 321
+  offset: 318, 131
+  index: -1
+question/answer/Q2/help/02/1-2-2
+  rotate: true
+  xy: 812, 997
+  size: 531, 70
+  orig: 955, 321
+  offset: 166, 138
+  index: -1
+question/answer/Q2/help/02/2-2
+  rotate: false
+  xy: 2, 1315
+  size: 615, 133
+  orig: 955, 321
+  offset: 129, 97
+  index: -1
+question/answer/Q2/help/02/2-2-2
+  rotate: false
+  xy: 1240, 688
+  size: 409, 70
+  orig: 955, 321
+  offset: 215, 138
+  index: -1
+question/answer/Q2/help/03/1-2-3
+  rotate: false
+  xy: 1312, 55
+  size: 316, 69
+  orig: 955, 321
+  offset: 288, 121
+  index: -1
+question/answer/Q2/help/03/2-2-3
+  rotate: false
+  xy: 1732, 1970
+  size: 299, 70
+  orig: 955, 321
+  offset: 305, 123
+  index: -1
+question/answer/Q2/help/03/2-3
+  rotate: true
+  xy: 2, 219
+  size: 581, 111
+  orig: 955, 321
+  offset: 207, 102
+  index: -1
+question/answer/Q2/tubiao/01/1-2-1
+  rotate: false
+  xy: 2, 6
+  size: 396, 211
+  orig: 689, 360
+  offset: 177, 67
+  index: -1
+question/answer/Q2/tubiao/01/1-2-2
+  rotate: false
+  xy: 400, 2
+  size: 363, 258
+  orig: 689, 360
+  offset: 162, 54
+  index: -1
+question/answer/Q2/tubiao/01/1-2-3
+  rotate: false
+  xy: 1669, 738
+  size: 375, 230
+  orig: 689, 360
+  offset: 127, 64
+  index: -1
+question/answer/Q2/tubiao/02/2-2-1
+  rotate: false
+  xy: 1651, 527
+  size: 394, 209
+  orig: 689, 360
+  offset: 181, 78
+  index: -1
+question/answer/Q2/tubiao/02/2-2-2
+  rotate: true
+  xy: 1307, 270
+  size: 344, 326
+  orig: 689, 360
+  offset: 146, 34
+  index: -1
+question/answer/Q2/tubiao/02/2-2-3
+  rotate: false
+  xy: 908, 42
+  size: 330, 246
+  orig: 689, 360
+  offset: 153, 66
+  index: -1
+question/answer/Q3/help/01/2-3-1
+  rotate: false
+  xy: 787, 926
+  size: 163, 69
+  orig: 955, 321
+  offset: 392, 107
+  index: -1
+question/answer/Q3/help/01/22-3-1
+  rotate: true
+  xy: 315, 262
+  size: 538, 108
+  orig: 955, 321
+  offset: 174, 111
+  index: -1
+question/answer/Q3/help/02/1-3-2
+  rotate: false
+  xy: 1312, 198
+  size: 316, 70
+  orig: 955, 321
+  offset: 356, 109
+  index: -1
+question/answer/Q3/help/02/2-3-2
+  rotate: false
+  xy: 619, 1378
+  size: 191, 70
+  orig: 955, 321
+  offset: 404, 109
+  index: -1
+question/answer/Q3/help/02/3-2
+  rotate: true
+  xy: 870, 290
+  size: 510, 126
+  orig: 955, 321
+  offset: 233, 100
+  index: -1
+question/answer/Q3/help/03/1-3-3
+  rotate: false
+  xy: 1312, 126
+  size: 316, 70
+  orig: 955, 321
+  offset: 242, 119
+  index: -1
+question/answer/Q3/help/03/2-3-3
+  rotate: false
+  xy: 585, 802
+  size: 423, 70
+  orig: 955, 321
+  offset: 219, 118
+  index: -1
+question/answer/Q3/help/03/3-3
+  rotate: true
+  xy: 730, 290
+  size: 510, 138
+  orig: 955, 321
+  offset: 175, 102
+  index: -1
+question/answer/Q3/help/04/1-3-4
+  rotate: true
+  xy: 836, 34
+  size: 254, 70
+  orig: 955, 321
+  offset: 304, 115
+  index: -1
+question/answer/Q3/help/04/3-4
+  rotate: true
+  xy: 425, 262
+  size: 538, 108
+  orig: 955, 321
+  offset: 193, 115
+  index: -1
+question/answer/Q3/tubiao/01/Atubiao
+  rotate: true
+  xy: 1732, 1638
+  size: 330, 288
+  orig: 689, 360
+  offset: 185, 36
+  index: -1
+question/answer/Q3/tubiao/01/Btubiao
+  rotate: true
+  xy: 1682, 970
+  size: 376, 350
+  orig: 689, 360
+  offset: 140, 10
+  index: -1
+question/answer/Q3/tubiao/01/Ctubiao
+  rotate: true
+  xy: 1635, 10
+  size: 371, 325
+  orig: 689, 360
+  offset: 186, 35
+  index: -1
+question/answer/Q3/tubiao/01/Dtubiao
+  rotate: false
+  xy: 1716, 1348
+  size: 330, 288
+  orig: 689, 360
+  offset: 200, 53
+  index: -1
+question/questoion/in
+  rotate: true
+  xy: 813, 1530
+  size: 89, 81
+  orig: 93, 86
+  offset: 4, 5
+  index: -1
+question/questoion/un
+  rotate: false
+  xy: 813, 1621
+  size: 84, 81
+  orig: 93, 86
+  offset: 4, 5
+  index: -1
+question/questoion/version02/1-1
+  rotate: false
+  xy: 903, 1733
+  size: 822, 180
+  orig: 926, 336
+  offset: 50, 90
+  index: -1
+question/questoion/version02/1-2
+  rotate: false
+  xy: 896, 1479
+  size: 804, 125
+  orig: 926, 336
+  offset: 47, 117
+  index: -1
+question/questoion/version02/1-3
+  rotate: false
+  xy: 2, 1577
+  size: 809, 125
+  orig: 926, 336
+  offset: 50, 117
+  index: -1
+question/questoion/version02/2-1
+  rotate: false
+  xy: 2, 1450
+  size: 808, 125
+  orig: 926, 336
+  offset: 50, 117
+  index: -1
+question/questoion/version02/2-2
+  rotate: false
+  xy: 903, 1915
+  size: 827, 125
+  orig: 926, 336
+  offset: 50, 117
+  index: -1
+question/questoion/version02/2-3
+  rotate: false
+  xy: 903, 1606
+  size: 811, 125
+  orig: 926, 336
+  offset: 47, 117
+  index: -1
+question/questoion/version02/kuang
+  rotate: false
+  xy: 2, 1704
+  size: 899, 336
+  orig: 926, 336
+  offset: 14, 0
+  index: -1
+
+question12.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+question/answer/Q1/help/01/1-1-1
+  rotate: false
+  xy: 2, 2
+  size: 481, 69
+  orig: 955, 321
+  offset: 262, 136
+  index: -1

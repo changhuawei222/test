@@ -1,0 +1,286 @@
+{
+"bones": [
+	{ "name": "root", "y": 102 },
+	{ "name": "enter_back", "parent": "root", "x": 303, "y": -275.15 },
+	{ "name": "questionbox", "parent": "root" },
+	{ "name": "quit_cancel", "parent": "root", "x": -303.01, "y": -275.15 },
+	{ "name": "share", "parent": "root", "length": 113.15, "x": -2.49, "y": 371.78, "rotation": -1.8 },
+	{ "name": "result", "parent": "questionbox", "x": -23.63 }
+],
+"slots": [
+	{ "name": "enter_back", "bone": "enter_back", "attachment": "images/question/enter" },
+	{ "name": "quit_cancel", "bone": "quit_cancel", "attachment": "images/question/back" },
+	{ "name": "share", "bone": "share", "attachment": "images/share" },
+	{ "name": "result_frame", "bone": "result", "attachment": "images/question/result/result_frame" },
+	{ "name": "result", "bone": "result", "attachment": "images/question/result/successful" }
+],
+"skins": {
+	"default": {
+		"enter_back": {
+			"images/question/enter": { "width": 267, "height": 135 },
+			"images/question/quit": { "width": 267, "height": 135 }
+		},
+		"quit_cancel": {
+			"images/question/back": { "width": 267, "height": 135 },
+			"images/question/last": { "width": 267, "height": 135 }
+		},
+		"result": {
+			"images/question/result/failure": { "width": 968, "height": 359 },
+			"images/question/result/failure_back": { "width": 968, "height": 359 },
+			"images/question/result/successful": { "width": 968, "height": 359 }
+		},
+		"result_frame": {
+			"images/question/result/result_frame": { "width": 968, "height": 359 }
+		},
+		"share": {
+			"images/share": { "x": 5.49, "y": -6.7, "rotation": 1.8, "width": 147, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"back": {
+		"slots": {
+			"quit_cancel": {
+				"attachment": [
+					{ "time": 0, "name": "images/question/back" }
+				]
+			}
+		}
+	},
+	"enter": {
+		"slots": {
+			"enter_back": {
+				"attachment": [
+					{ "time": 0, "name": "images/question/enter" }
+				]
+			}
+		}
+	},
+	"leftOff": {
+		"bones": {
+			"quit_cancel": {
+				"scale": [
+					{ "time": 0, "x": 0.85, "y": 0.85 },
+					{ "time": 0.1666, "x": 0.799, "y": 0.799 }
+				]
+			}
+		}
+	},
+	"leftOn": {
+		"bones": {
+			"quit_cancel": {
+				"scale": [
+					{ "time": 0, "x": 0.85, "y": 0.85 }
+				]
+			}
+		}
+	},
+	"movein": {
+		"bones": {
+			"questionbox": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 362.07,
+						"curve": [ 0.35, 0.9, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 0, "y": -10.92 },
+					{ "time": 0.6333, "x": 0, "y": 0 }
+				]
+			},
+			"quit_cancel": {
+				"translate": [
+					{ "time": 0, "x": -413.31, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.1666,
+						"x": -413.31,
+						"y": 0,
+						"curve": [ 0.144, 0.45, 0.544, 0.99 ]
+					},
+					{
+						"time": 0.6,
+						"x": 121.57,
+						"y": 0,
+						"curve": [ 0.367, 0.06, 0.918, 0.73 ]
+					},
+					{ "time": 0.7666, "x": 108.14, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.799, "y": 0.799 }
+				]
+			},
+			"enter_back": {
+				"translate": [
+					{ "time": 0, "x": 413.32, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.1666,
+						"x": 413.32,
+						"y": 0,
+						"curve": [ 0.144, 0.45, 0.544, 0.99 ]
+					},
+					{
+						"time": 0.6,
+						"x": -108.04,
+						"y": 0,
+						"curve": [ 0.367, 0.06, 0.918, 0.73 ]
+					},
+					{ "time": 0.7666, "x": -97.86, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.799, "y": 0.799 }
+				]
+			}
+		}
+	},
+	"moveout": {
+		"bones": {
+			"quit_cancel": {
+				"translate": [
+					{ "time": 0, "x": 108.14, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.799, "y": 0.799, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0.799, "y": 0.799 },
+					{
+						"time": 0.8666,
+						"x": 0.799,
+						"y": 0.049,
+						"curve": [ 0.158, 0.88, 0.75, 1 ]
+					},
+					{ "time": 1.0333, "x": 0, "y": 0.1 }
+				]
+			},
+			"enter_back": {
+				"translate": [
+					{ "time": 0, "x": -97.86, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.799, "y": 0.799, "curve": "stepped" },
+					{
+						"time": 0.6666,
+						"x": 0.799,
+						"y": 0.799,
+						"curve": [ 0.395, 0.01, 0.75, 1 ]
+					},
+					{
+						"time": 0.8666,
+						"x": 0.799,
+						"y": 0.049,
+						"curve": [ 0.158, 0.88, 0.75, 1 ]
+					},
+					{ "time": 1.0333, "x": 0, "y": 0.1 }
+				]
+			},
+			"questionbox": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.138, 0.44, 0.724, 0.98 ]
+					},
+					{
+						"time": 0.3,
+						"x": 0,
+						"y": -18.74,
+						"curve": [ 0.43, 0, 0.911, 0.6 ]
+					},
+					{ "time": 0.9, "x": 0, "y": 399.86 }
+				]
+			}
+		}
+	},
+	"quit": {
+		"slots": {
+			"enter_back": {
+				"attachment": [
+					{ "time": 0, "name": "images/question/quit" }
+				]
+			}
+		}
+	},
+	"result": {
+		"slots": {
+			"result": {
+				"attachment": [
+					{ "time": 0, "name": "images/question/result/failure" }
+				]
+			}
+		}
+	},
+	"rightOff": {
+		"bones": {
+			"enter_back": {
+				"scale": [
+					{ "time": 0, "x": 0.85, "y": 0.85 },
+					{ "time": 0.1666, "x": 0.799, "y": 0.799 }
+				]
+			}
+		}
+	},
+	"rightOn": {
+		"bones": {
+			"enter_back": {
+				"scale": [
+					{ "time": 0, "x": 0.85, "y": 0.85 }
+				]
+			}
+		}
+	},
+	"sharein": {
+		"bones": {
+			"share": {
+				"translate": [
+					{
+						"time": 0.3333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.218, 0.39, 0.615, 0.96 ]
+					},
+					{
+						"time": 0.8333,
+						"x": 0,
+						"y": -189.99,
+						"curve": [ 0.298, 0, 0.872, 0.56 ]
+					},
+					{ "time": 1, "x": 0, "y": -180.92 }
+				]
+			}
+		}
+	},
+	"shareout": {
+		"bones": {
+			"share": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": -180.92,
+						"curve": [ 0.25, 0, 0.804, 0.43 ]
+					},
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"result1": {
+		"slots": {
+			"result": {
+				"attachment": [
+					{ "time": 0, "name": "images/question/result/failure_back" }
+				]
+			}
+		}
+	},
+	"result2": {
+		"slots": {
+			"result": {
+				"attachment": [
+					{ "time": 0, "name": "images/question/result/successful" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,26 @@
+
+lastnext.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/question/last
+  rotate: false
+  xy: 2, 2
+  size: 240, 111
+  orig: 267, 135
+  offset: 11, 11
+  index: -1
+images/question/next
+  rotate: false
+  xy: 244, 2
+  size: 240, 111
+  orig: 267, 135
+  offset: 11, 11
+  index: -1
+images/question/submit
+  rotate: false
+  xy: 486, 2
+  size: 240, 111
+  orig: 267, 135
+  offset: 11, 11
+  index: -1

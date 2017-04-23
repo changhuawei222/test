@@ -1,0 +1,131 @@
+
+talk.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+doctorX/doctorX
+  rotate: false
+  xy: 1677, 1606
+  size: 293, 405
+  orig: 343, 443
+  offset: 26, 16
+  index: -1
+doctorX/level01/word01/V1
+  rotate: false
+  xy: 903, 1135
+  size: 606, 70
+  orig: 968, 359
+  offset: 149, 155
+  index: -1
+doctorX/level01/word01/v1kuang
+  rotate: false
+  xy: 2, 2
+  size: 673, 173
+  orig: 968, 359
+  offset: 117, 104
+  index: -1
+doctorX/level01/word02/V2
+  rotate: false
+  xy: 903, 1351
+  size: 655, 180
+  orig: 968, 359
+  offset: 165, 101
+  index: -1
+doctorX/level01/word02/V2kuang
+  rotate: false
+  xy: 2, 1366
+  size: 772, 339
+  orig: 968, 359
+  offset: 116, 20
+  index: -1
+doctorX/level02/word01/v1
+  rotate: true
+  xy: 776, 1019
+  size: 686, 125
+  orig: 968, 359
+  offset: 145, 115
+  index: -1
+doctorX/level02/word01/v1kuang
+  rotate: false
+  xy: 903, 1715
+  size: 772, 296
+  orig: 968, 359
+  offset: 100, 40
+  index: -1
+doctorX/level02/word02/v2
+  rotate: false
+  xy: 903, 1533
+  size: 656, 180
+  orig: 968, 359
+  offset: 153, 87
+  index: -1
+doctorX/level02/word02/v2kuang
+  rotate: false
+  xy: 2, 714
+  size: 772, 320
+  orig: 968, 359
+  offset: 95, 31
+  index: -1
+scene_01_aside
+  rotate: false
+  xy: 2, 1707
+  size: 899, 304
+  orig: 968, 359
+  offset: 35, 44
+  index: -1
+xiaoqiang/level01/word01/xiaoqiang1
+  rotate: false
+  xy: 2, 177
+  size: 669, 180
+  orig: 968, 359
+  offset: 105, 97
+  index: -1
+xiaoqiang/level01/word01/xiaoqiang1kuang
+  rotate: false
+  xy: 2, 1036
+  size: 772, 328
+  orig: 968, 359
+  offset: 58, 28
+  index: -1
+xiaoqiang/level01/word02/xiaoqiang2
+  rotate: false
+  xy: 903, 1063
+  size: 545, 70
+  orig: 968, 359
+  offset: 147, 143
+  index: -1
+xiaoqiang/level01/word02/xiaoqiang2kuang
+  rotate: false
+  xy: 2, 359
+  size: 673, 197
+  orig: 968, 359
+  offset: 82, 81
+  index: -1
+xiaoqiang/level02/word01/xiaoqiang1
+  rotate: false
+  xy: 903, 1207
+  size: 642, 70
+  orig: 968, 359
+  offset: 163, 159
+  index: -1
+xiaoqiang/level02/word01/xiaoqiang1kuang
+  rotate: false
+  xy: 2, 558
+  size: 774, 154
+  orig: 968, 359
+  offset: 99, 114
+  index: -1
+xiaoqiang/level02/word02/xiaoqiang2
+  rotate: false
+  xy: 903, 1279
+  size: 699, 70
+  orig: 955, 321
+  offset: 100, 121
+  index: -1
+xiaoqiang/xiaoqiang
+  rotate: true
+  xy: 903, 809
+  size: 252, 412
+  orig: 278, 433
+  offset: 16, 14
+  index: -1
